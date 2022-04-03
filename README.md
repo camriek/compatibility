@@ -1,4 +1,4 @@
-# compatibility
+# Compatibility Predictor
 Application that takes an input: an array of applicants and an array of team members, and produces an output: an array of applicants with their respective compatibility score.
 
 ## Instructions
@@ -27,7 +27,7 @@ jon_work = team_work + 9
 ```
 
 ## Explanation
-Code takes team data and applicant data to yield applicant compatibility scores. Team members and applicants are measured against DataHouse principles of success.
+Code takes team data and applicant data to yield applicant compatibility scores. Team members and applicants are measured against DataHouse Principles of Success.
 
 To calculate compatibility score, we first calculate the team's overall score. This is done by setting an arbitrary maximum of 30 and calculating the average of the team's attribute scores.
 
@@ -77,4 +77,4 @@ Jon: 0.49375
 Jane: 0.46875
 Joe: 0.50625
 ```
-This means that Joe is the most "compatible" with the team because he would increase the team's overall average score. Joe is more compatibile than Jon and Jane.
+This means that Joe is the most "compatible" with the team because he would increase the team's overall average score. Joe is more compatible than Jon and Jane.
