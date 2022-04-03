@@ -1,6 +1,8 @@
 # Camrie Kubota
 # DataHouse Take Home Project 
 
+import json
+
 def func(var1, var2, var3, var4, max): 
     var1 = (var1/max)
     var2 = (var2/max)
